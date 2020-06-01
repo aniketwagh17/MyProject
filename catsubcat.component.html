@@ -1,0 +1,12 @@
+<div class="container">
+<div class="row d-flex">
+<!-- <ng-container > -->
+<table *ngFor="let cs of catsubcat1">
+      <tr>
+        <td><a  [routerLink]="['/catsubcat',cs]" (click)="call()">{{cs}}</a></td>  
+      </tr>
+      <br>
+  </table>
+<!-- </ng-container> -->
+</div>
+</div>
