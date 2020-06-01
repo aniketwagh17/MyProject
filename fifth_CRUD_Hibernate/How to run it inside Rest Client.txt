@@ -1,0 +1,61 @@
+open Rest Client
+
+if you want to test "add" module
+
+http://localhost:83/rest_crud/crud/update
+
+method: POST
+
+Body
+
+type following:
+
+{"name":"babysoap","price":100,"qty":80}
+
+click on "send"
+
+
+
+if you want to test "GET" module
+
+http://localhost:83/rest_crud/crud/products
+
+method: GET
+	this will get all the records
+
+
+if you want to test "GET" module ( for particular record)
+
+
+http://localhost:83/rest_crud/crud/search/2
+
+method: GET
+	this will get record which has id "2"
+
+
+if you want to test "put" module
+
+http://localhost:83/rest_crud/crud/update/2
+
+method: PUT
+
+Body
+
+type following:
+
+{"name":"Deo","price":280,"qty":190}
+
+click on "send"
+
+make sure record which has id "2" is changed.
+
+
+if you want to test "delete" module
+
+http://localhost:83/rest_crud/crud/delete/2
+
+method: DELETE
+
+	make sure record which has id "2" will be removed
+
+
